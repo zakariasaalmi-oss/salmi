@@ -44,7 +44,7 @@ document.getElementById('downloadBtn').addEventListener('click', function(e) {
   e.preventDefault();
   // ضع رابط الـ APK هنا
   window.location.href = 'https://drive.google.com/file/d/1svj9lAWca2XQ9pFgJ_N1wyUPfWmvaThU/view?usp=drive_link';
-  alert('');
+  
 });
 
 // ===== NAVBAR SCROLL =====

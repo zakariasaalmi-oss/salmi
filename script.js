@@ -43,7 +43,7 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 document.getElementById('downloadBtn').addEventListener('click', function(e) {
   e.preventDefault();
   // ضع رابط الـ APK هنا
-  window.location.href = 'https://drive.google.com/file/d/1XG0yPrS-qLBO_-TAd8ZR2_BZSnRSSRLd/view?usp=drive_link';
+  window.location.href = 'salmi.apk';
   
 });
 

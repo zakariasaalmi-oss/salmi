@@ -360,6 +360,27 @@ body {
   transition: all 0.3s;
   margin-bottom: 24px;
 }
+.download-btnn {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(135deg, #3d75dc, #3537a1);
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px;
+  box-shadow: 0 12px 48px rgba(61,220,132,0.4);
+  transition: all 0.3s;
+  margin-bottom: 24px;
+}
+.download-btnn:hover { transform: translateY(-4px); box-shadow: 0 20px 64px rgba(61,220,132,0.6); }
+.download-btnn-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, rgba(61,220,132,0.15), rgba(0,168,107,0.1));
+  border-radius: 16px;
+  padding: 18px 36px;
+  backdrop-filter: blur(10px);
+}
 .download-btn:hover { transform: translateY(-4px); box-shadow: 0 20px 64px rgba(61,220,132,0.6); }
 .download-btn-inner {
   display: flex;
